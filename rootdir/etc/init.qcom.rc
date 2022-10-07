@@ -347,11 +347,6 @@ service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
-service vendor.atfwd /vendor/bin/ATFWD-daemon
-    class late_start
-    user system
-    group system radio
-
 service hostapd_fst /vendor/bin/hw/hostapd -dd -g /data/vendor/wifi/hostapd/global
     class main
     capabilities NET_ADMIN NET_RAW
