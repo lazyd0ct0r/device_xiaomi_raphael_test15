@@ -46,15 +46,17 @@ function lib_to_package_fixup_vendor_variants() {
 
     case "$1" in
         com.qualcomm.qti.dpm.api@1.0 | \
-            libmmosal | \
-            vendor.qti.hardware.alarm@1.0 | \
-            vendor.qti.hardware.fm@1.0 | \
-            vendor.qti.imsrtpservice@3.0)
-            echo "${1}_vendor"
-            ;;
+        libmmosal | \
+        vendor.qti.hardware.alarm@1.0 | \
+        vendor.qti.hardware.fm@1.0 | \
+        vendor.qti.imsrtpservice@3.0)
+        echo "${1}_vendor"
+        ;;
+        libOmxCore | \
+        libwpa_client) ;;
         *)
-            return 1
-            ;;
+        return 1
+        ;;
     esac
 }
 
