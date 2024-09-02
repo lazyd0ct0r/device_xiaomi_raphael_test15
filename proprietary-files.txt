@@ -135,6 +135,7 @@ vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
@@ -144,7 +145,7 @@ vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # Camera
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
@@ -657,9 +658,9 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/libdpmqmihal.so
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 
 # DRM Widevine
@@ -901,7 +902,7 @@ system_ext/lib64/libmmosal.so
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/lib/libqcodec2.so
-vendor/lib64/libmmosal.so
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libqcodec2.so
 
 # MDM
@@ -1034,7 +1035,7 @@ vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|5f8bf423e3c4b56b5f8278eb5bae
 vendor/bin/power_off_alarm|6040b06f9bc850ef69156bed4367f1f8371449d7
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|80fd75eb9a44a1e7e62593855c06e6f219a3c4b3
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|66d8dc137c36ac32d0f71ceb433167753ffa108f
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so;MODULE_SUFFIX=_vendor|66d8dc137c36ac32d0f71ceb433167753ffa108f
 
 # QCC VND HAL
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
@@ -1246,8 +1247,8 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
 # Sensor (Configs)
 vendor/etc/sensors/config/adux1050_0.json
