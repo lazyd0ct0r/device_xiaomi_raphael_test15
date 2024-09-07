@@ -618,4 +618,5 @@
 
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent">com.xiaomi.scanner/com.xiaomi.scanner.app.ScanActivity</string>
+    <bool name="config_powerOffAlarmEnabled">true</bool>    
 </resources>
