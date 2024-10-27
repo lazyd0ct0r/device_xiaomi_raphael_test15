@@ -1,0 +1,14 @@
+# Dolby
+attribute hal_dms;
+attribute hal_dms_client;
+attribute hal_dms_server;
+
+# Mlipay
+attribute hal_mlipay;
+attribute hal_mlipay_server;
+attribute hal_mlipay_client;
+
+# Motor
+attribute hal_motor;
+attribute hal_motor_client;
+attribute hal_motor_server;

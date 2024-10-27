@@ -1,0 +1,18 @@
+# Camera - Miui
+type hal_camerapostproc_xiaomi_hwservice, hwservice_manager_type;
+
+# Dolby
+type hal_dms_hwservice, hwservice_manager_type;
+
+# Fingerprint
+type hal_xiaomi_fingerprint_hwservice, hwservice_manager_type;
+
+# Mlipay
+type hal_mlipay_hwservice, hwservice_manager_type;
+
+# Motor
+type hal_motor_hwservice, hwservice_manager_type;
+
+# NFC
+type nxpnfc_hwservice, hwservice_manager_type;
+type nxpese_hwservice, hwservice_manager_type;
