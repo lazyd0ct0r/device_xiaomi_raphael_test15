@@ -652,3 +652,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     suspend.short_suspend_threshold_millis=2000 \
     suspend.short_suspend_backoff_enabled=true \
     suspend.max_sleep_time_millis=40000
+
+TARGET_GAPPS_OVERRIDE += \
+Chrome \
+Gboard \
+WellbeingPrebuilt \
+WeatherPixelPrebuilt_24D1 \
+Velvet \
+FilesPrebuilt \
+TrichromeLibrary-Stub \
+PrebuiltDeskClockGoogle_76004981 \
+GoogleTTS \
+Chrome-Stub \
+DevicePolicyPrebuilt-v10052480 \
+RecorderPrebuilt_630544637 \
+TrichromeLibrary
